@@ -88,74 +88,14 @@ export default function Hero() {
                 </div>
 
                 <div className="relative mx-auto w-full max-w-md">
-                    <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-violet-600/20 to-blue-600/10 blur-2xl" />
+                    <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-violet-600/25 to-blue-600/15 blur-2xl" />
 
-                    <div className="relative rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-sm">
-                        <div className="flex items-center justify-between border-b border-white/10 pb-5">
-                            <div>
-                                <p className="text-sm text-gray-500">
-                                    Developer
-                                </p>
-
-                                <p className="mt-1 text-xl font-semibold text-white">
-                                    KZ.
-                                </p>
-                            </div>
-
-                            <div className="rounded-lg border border-violet-500/20 bg-violet-500/10 px-3 py-2 text-sm text-violet-300">
-                                &lt;/&gt;
-                            </div>
-                        </div>
-
-                        <div className="mt-8">
-                            <p className="text-sm uppercase tracking-[0.25em] text-gray-500">
-                                Frontend
-                            </p>
-
-                            <div className="mt-4 flex flex-wrap gap-2">
-                                <span className="rounded-full border border-white/10 bg-black/20 px-3 py-1.5 text-sm text-gray-300">
-                                    React
-                                </span>
-
-                                <span className="rounded-full border border-white/10 bg-black/20 px-3 py-1.5 text-sm text-gray-300">
-                                    TypeScript
-                                </span>
-
-                                <span className="rounded-full border border-white/10 bg-black/20 px-3 py-1.5 text-sm text-gray-300">
-                                    Tailwind CSS
-                                </span>
-                            </div>
-                        </div>
-
-                        <div className="mt-8">
-                            <p className="text-sm uppercase tracking-[0.25em] text-gray-500">
-                                Backend
-                            </p>
-
-                            <div className="mt-4 flex flex-wrap gap-2">
-                                <span className="rounded-full border border-white/10 bg-black/20 px-3 py-1.5 text-sm text-gray-300">
-                                    Node.js
-                                </span>
-
-                                <span className="rounded-full border border-white/10 bg-black/20 px-3 py-1.5 text-sm text-gray-300">
-                                    Express.js
-                                </span>
-
-                                <span className="rounded-full border border-white/10 bg-black/20 px-3 py-1.5 text-sm text-gray-300">
-                                    MongoDB
-                                </span>
-                            </div>
-                        </div>
-
-                        <div className="mt-10 rounded-2xl border border-violet-500/20 bg-violet-500/10 p-5">
-                            <p className="text-sm text-gray-400">
-                                Building modern web experiences.
-                            </p>
-
-                            <p className="mt-2 font-medium text-violet-300">
-                                React · Node.js · JavaScript
-                            </p>
-                        </div>
+                    <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-2 backdrop-blur-sm">
+                        <img
+                            src="/images/kareem-profile.jpg"
+                            alt="Kareem Zaydan"
+                            className="h-[480px] w-full rounded-2xl object-cover object-center"
+                        />
                     </div>
                 </div>
             </div>
